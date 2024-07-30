@@ -1,5 +1,4 @@
 import pyshark
-from datetime import datetime
 
 def get_packets(file):
     capture = pyshark.FileCapture(file, display_filter='coap')
